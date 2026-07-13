@@ -1,18 +1,18 @@
-\# CONBIT.CreateProjectFolder
+\# Vault Create Subfolders
 
 
 
-Autodesk Vault Event Handler that creates project folders based on configured settings.
+Autodesk Vault Event Handler for creating project folders.
 
 
 
-\## Potential Requirements
+\## Credits
 
 
 
-\- Autodesk Vault
+This project was originally based on Autodesk Vault SDK sample code.
 
-\- Autodesk Vault SDK
+Additional functionality and modifications were developed by Max van Orsouw.
 
 
 
@@ -20,7 +20,9 @@ Autodesk Vault Event Handler that creates project folders based on configured se
 
 
 
-Autodesk DLLs are not included in this repository and must be obtained separately from Autodesk.
+Requires Autodesk Vault SDK components.
+
+Autodesk DLLs are not included in this repository.
 
 
 
@@ -28,7 +30,11 @@ Autodesk DLLs are not included in this repository and must be obtained separatel
 
 
 
-MIT License - see LICENSE file
+This repository contains original code by Max van Orsouw and code derived
+
+from Autodesk Vault SDK samples. Autodesk sample code remains subject to
+
+the Autodesk Vault SDK license agreement.
 
 
 
