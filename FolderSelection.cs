@@ -11,7 +11,7 @@ namespace CONBIT.CreateProjectFolder
     public partial class FolderSelection : Form
     {
         // Location where it should read the standard structure from, maximum allowed depth is 2 levels (e.g. root\Sub1\Sub2)
-        private const string StandardStructureRoot = @"M:\Temp\MOR\Vault Industrial";
+        private const string StandardStructureRoot = @"C:\ExampleRoot"; //Placeholder path, replace with actual path
 
         private const int RowHeight = 26;
         private const int IndentWidth = 23;
