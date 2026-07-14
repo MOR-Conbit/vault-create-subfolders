@@ -133,17 +133,12 @@ namespace CONBIT.CreateProjectFolder
 
                 //Find project number from folder name by iterating through it until there is no more numeric characters
                 ProjectNumber = "";
-                for (int i = 1; i <= mFolder.Name.Length; i++)
+                foreach (char c in mFolder.Name)
                 {
-                    int resNum;
-                    if (int.TryParse(mFolder.Name.Substring(0, i), out resNum))
-                    {
-                        ProjectNumber = mFolder.Name.Substring(0, i);
-                    }
+                    if (char.IsDigit(c))
+                        ProjectNumber += c;
                     else
-                    {
                         break;
-                    }
                 }
 
                 //Prompt with form what folders should be added
