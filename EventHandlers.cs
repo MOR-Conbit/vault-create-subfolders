@@ -26,9 +26,6 @@ namespace CONBIT.CreateProjectFolder
 
         public void OnLoad()
         {
-            //MessageBox.Show("extension loaded properly");
-            ProjectNumber = "";
-
             #region register events
             // register for events here
             // comment out events not being used
@@ -116,290 +113,32 @@ namespace CONBIT.CreateProjectFolder
             #endregion register events
         }
 
-        #region CustomEntity Events
-        private void UpdateCustomEntityLifecycleStateEvents_Post(object sender, UpdateCustomEntityLifeCycleStateCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void UpdateCustomEntityLifecycleStateEvents_Pre(object sender, UpdateCustomEntityLifeCycleStateCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void UpdateCustomEntityLifecycleStateEvents_GetRestrictions(object sender, UpdateCustomEntityLifeCycleStateCommandEventArgs e)
-        {
-            //add code here;
-        }
-        #endregion CustomEntity Events
-
-        #region ChangeOrder Events
-        private void UpdateChangeOrderLifecycleStateEvents_Post(object sender, UpdateChangeOrderLifeCycleStateCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void UpdateChangeOrderLifecycleStateEvents_Pre(object sender, UpdateChangeOrderLifeCycleStateCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void UpdateChangeOrderLifecycleStateEvents_GetRestrictions(object sender, UpdateChangeOrderLifeCycleStateCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void EditChangeOrderEvents_Post(object sender, EditChangeOrderCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void EditChangeOrderEvents_Pre(object sender, EditChangeOrderCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void EditChangeOrderEvents_GetRestrictions(object sender, EditChangeOrderCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void DeleteChangeOrderEvents_Post(object sender, DeleteChangeOrderCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void DeleteChangeOrderEvents_Pre(object sender, DeleteChangeOrderCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void DeleteChangeOrderEvents_GetRestrictions(object sender, DeleteChangeOrderCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void CommitChangeOrderEvents_Post(object sender, CommitChangeOrderCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void CommitChangeOrderEvents_Pre(object sender, CommitChangeOrderCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void CommitChangeOrderEvents_GetRestrictions(object sender, CommitChangeOrderCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void AddChangeOrderEvents_Post(object sender, AddChangeOrderCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void AddChangeOrderEvents_Pre(object sender, AddChangeOrderCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void AddChangeOrderEvents_GetRestrictions(object sender, AddChangeOrderCommandEventArgs e)
-        {
-            //add code here;
-        }
-        #endregion ChangeOrder Events
-
-        #region Item Events
-        private void UpdateItemLifecycleStateEvents_Post(object sender, UpdateItemLifeCycleStateCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void UpdateItemLifecycleStateEvents_Pre(object sender, UpdateItemLifeCycleStateCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void UpdateItemLifecycleStateEvents_GetRestrictions(object sender, UpdateItemLifeCycleStateCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void PromoteItemEvents_Post(object sender, PromoteItemCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void PromoteItemEvents_Pre(object sender, PromoteItemCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void PromoteItemEvents_GetRestrictions(object sender, PromoteItemCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void EditItemEvents_Post(object sender, EditItemCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void EditItemEvents_Pre(object sender, EditItemCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void EditItemEvents_GetRestrictions(object sender, EditItemCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void DeleteItemEvents_Post(object sender, DeleteItemCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void DeleteItemEvents_Pre(object sender, DeleteItemCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void DeleteItemEvents_GetRestrictions(object sender, DeleteItemCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void ItemRollbackLifeCycleStatesEvents_Pos(object sender, ItemRollbackLifeCycleStateCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void ItemRollbackLifeCycleStatesEvents_Pre(object sender, ItemRollbackLifeCycleStateCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void ItemRollbackLifeCycleStatesEvents_GetRestrictions(object sender, ItemRollbackLifeCycleStateCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void CommitItemEvents_Post(object sender, CommitItemCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void CommitItemEvents_Pre(object sender, CommitItemCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void CommitItemEvents_GetRestrictions(object sender, CommitItemCommandEventArgs e)
-        {
-            //add code here;
-        }
-        private void AddItemEvents_Post(object sender, AddItemCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void AddItemEvents_GetRestrictions(object sender, AddItemCommandEventArgs e)
-        {
-            //add code here;
-        }
-        #endregion Item Events
-
-        #region Folder Events
-        #region Unused folder events
-        private void UpdateFolderLifecycleStateEvents_Post(object sender, UpdateFolderLifeCycleStateCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void UpdateFolderLifecycleStateEvents_Pre(object sender, UpdateFolderLifeCycleStateCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void UpdateFolderLifecycleStateEvents_GetRestrictions(object sender, UpdateFolderLifeCycleStateCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void MoveFolderEvent_Post(object sender, MoveFolderCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void MoveFolderEvent_Pre(object sender, MoveFolderCommandEventArgs e)
-        {
-            //add code here;
-
-        }
-
-        private void MoveFolderEvent_GetRestrictions(object sender, MoveFolderCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void DeleteFolderEvents_Post(object sender, DeleteFolderCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void DeleteFolderEvents_Pre(object sender, DeleteFolderCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void DeleteFolderEvents_GetRestrictions(object sender, DeleteFolderCommandEventArgs e)
-        {
-            //add code here;
-        }
-        #endregion Unused folder events
         private void AddFolderEvents_Post(object sender, AddFolderCommandEventArgs e)
         {
             //Entire code encapsulated by try catch just in case
             try
             {
-                //MessageBox.Show("Folder created - Post");
-                Autodesk.Connectivity.WebServices.Folder mFolder;
-                Autodesk.Connectivity.WebServices.DocumentServiceExtensions mDocServExt;
-
                 //Verify if everything went well and a folder was created
-                if (e.ReturnValue is Autodesk.Connectivity.WebServices.Folder)
-                {
-                    mFolder = (Autodesk.Connectivity.WebServices.Folder)e.ReturnValue;
-                }
-                else
-                {
+                if (!(e.ReturnValue is Autodesk.Connectivity.WebServices.Folder mFolder))
                     return;
-                }
 
                 //Ensure it only runs on the folder created in Industrial and also not on subfolders
                 if (mFolder.FullName != String.Format("$/Industrial/{0}", mFolder.Name))
-                {
                     return;
-                }
 
                 //Ask if they want to create subfolders
                 if (MessageBox.Show("Do you want to add standard subfolders to the new folder?", "Populate new folder",
-                    MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1) == DialogResult.Yes) { }
-                else
-                {
+                    MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1) != DialogResult.Yes)
                     return;
-                }
 
                 //Find project number from folder name by iterating through it until there is no more numeric characters
+                ProjectNumber = "";
                 for (int i = 1; i <= mFolder.Name.Length; i++)
                 {
                     int resNum;
                     if (int.TryParse(mFolder.Name.Substring(0, i), out resNum))
                     {
-                        //ProjectNumber = mFolder.Name.Substring(0, resNum);
-                        ProjectNumber = resNum.ToString();
+                        ProjectNumber = mFolder.Name.Substring(0, i);
                     }
                     else
                     {
@@ -419,13 +158,14 @@ namespace CONBIT.CreateProjectFolder
                 Autodesk.Connectivity.WebServices.Folder mContFolder;
 
                 //Get the DocumentServiceExtensions object regardless of using it from Inventor or Vault
+                Autodesk.Connectivity.WebServices.DocumentServiceExtensions mDocServExt;
+
                 if (sender is Autodesk.Connectivity.WebServices.DocumentServiceExtensions)
                 {
                     mDocServExt = (Autodesk.Connectivity.WebServices.DocumentServiceExtensions)sender;
                 }
-                else if (sender is Autodesk.Connectivity.WebServices.DocumentService)
+                else if (sender is Autodesk.Connectivity.WebServices.DocumentService mDocServ)
                 {
-                    Autodesk.Connectivity.WebServices.DocumentService mDocServ = (Autodesk.Connectivity.WebServices.DocumentService)sender;
                     mDocServExt = mDocServ.WebServiceManager.DocumentServiceExtensions;
                 }
                 else
@@ -440,13 +180,13 @@ namespace CONBIT.CreateProjectFolder
                     //Add main folder, exit if folder name is empty string
                     if (FLD.Name == "") { continue; }
 
-                    try
+                    //Add folder if it does not exist
+                    if (mDocServExt.WebServiceManager.DocumentService.FindFoldersByPaths(new string[] { string.Format("{0}/{1}",mFolder.FullName,FLD.Name) })[0].FullName == null)
                     {
                         mContFolder = mDocServExt.WebServiceManager.DocumentService.AddFolder(FLD.Name, mFolder.Id, false);
                     }
-                    catch
+                    else
                     {
-                        //If error with folder creation occurs it should just skip this folder
                         continue;
                     }
 
@@ -455,15 +195,17 @@ namespace CONBIT.CreateProjectFolder
                     {
                         foreach (string SFLD in FLD.ActiveChildren)
                         {
+                            //Add folder, exit if folder is empty string
                             if (SFLD == "") { continue; }
-                            try
+
+                            //Add folder is it does not exist
+                            if (mDocServExt.WebServiceManager.DocumentService.FindFoldersByPaths(new string[] { string.Format("{0}/{1}", mContFolder.FullName, SFLD) })[0].FullName == null)
                             {
                                 mDocServExt.WebServiceManager.DocumentService.AddFolder(SFLD, mContFolder.Id, false);
                             }
-                            catch
+                            else
                             {
-                                //If error with folder creation occurs it should just skip this folder
-                                continue; 
+                                continue;
                             }
                         }
                     }
@@ -474,111 +216,6 @@ namespace CONBIT.CreateProjectFolder
                 MessageBox.Show("An unknown error occurred during subfolder creation" + Environment.NewLine + ex.Message, "Unexpected error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
-        #region More unused folder events
-        private void AddFolderEvents_Pre(object sender, AddFolderCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void AddFolderEvents_GetRestrictions(object sender, AddFolderCommandEventArgs e)
-        {
-            //add code here;
-        }
-        #endregion More unused folder events
-        #endregion Folder Events
-
-        #region File Events
-        private void UpdateFileLifecycleStateEvents_Post(object sender, UpdateFileLifeCycleStateCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void UpdateFileLifecycleStateEvents_Pre(object sender, UpdateFileLifeCycleStateCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void UpdateFileLifecycleStateEvents_GetRestrictions(object sender, UpdateFileLifeCycleStateCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void DownloadFileEvents_Post(object sender, DownloadFileCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void DownloadFileEvents_Pre(object sender, DownloadFileCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void DownloadFileEvents_GetRestrictions(object sender, DownloadFileCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void DeleteFileEvents_Post(object sender, DeleteFileCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void DeleteFileEvents_Pre(object sender, DeleteFileCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void DeleteFileEvents_GetRestrictions(object sender, DeleteFileCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void CheckoutFileEvents_Post(object sender, CheckoutFileCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void CheckoutFileEvents_Pre(object sender, CheckoutFileCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void CheckoutFileEvents_GetRestrictions(object sender, CheckoutFileCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void CheckInFileEvents_Post(object sender, CheckinFileCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void CheckInFileEvents_Pre(object sender, CheckinFileCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void CheckinFileEvents_GetRestrictions(object sender, CheckinFileCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void AddFileEvents_Pre(object sender, AddFileCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void AddFileEvents_Post(object sender, AddFileCommandEventArgs e)
-        {
-            //add code here;
-        }
-
-        private void AddFileEvents_GetRestrictions(object sender, AddFileCommandEventArgs e)
-        {
-            //add code here;
-        }
-        #endregion File Events
         #endregion IWebServiceExtension Members
     }
 }
