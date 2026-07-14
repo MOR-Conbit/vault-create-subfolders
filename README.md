@@ -1,10 +1,10 @@
-\# Vault Create Subfolders
+Vault Create Subfolders
 
 Autodesk Vault Event Handler for creating project folders.
 
 
 
-\## Description
+Description
 
 This project provides a custom Autodesk Vault Event Handler that creates
 
@@ -20,7 +20,7 @@ were developed by Max van Orsouw.
 
 
 
-\## Requirements
+Requirements
 
 \- Autodesk Vault Professional
 
@@ -28,7 +28,7 @@ were developed by Max van Orsouw.
 
 
 
-\## Dependencies
+Dependencies
 
 Autodesk Vault SDK assemblies are not included in this repository.
 
@@ -38,7 +38,7 @@ with Autodesk licensing requirements.
 
 
 
-\## License
+License
 
 This repository contains original code and modifications by Max van Orsouw.
 
