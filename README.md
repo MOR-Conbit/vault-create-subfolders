@@ -1,6 +1,6 @@
 **Vault Create Subfolders**
 
-Autodesk Vault Event Handler for creating project folders.
+Autodesk Vault Event Handler for creating subfolder based on an existing local folder structure.
 
 
 
